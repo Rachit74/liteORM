@@ -1,0 +1,1 @@
+# liteORM is an attempt to make an light weight ORM in python for learning purposes
