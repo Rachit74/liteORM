@@ -15,11 +15,9 @@ class BaseModel:
         self.cursor.execute(query, params)
         self.connection.commit()
 
-    def fetch_qury(self, query, params=()):
+    def fetch_query(self, query, params=()):
         """
         function to execute to a query with params and fetch the records
         """
         self.cursor.execute(query, params)
         return self.cursor.fetchall()
-
-model = BaseModel('test')
